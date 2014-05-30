@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Placeholder because AOSP build system does not setup a dependency on framework-res without
+         a res folder and therefore aapt will fail when processing the AndroidManifest.xml -->
+    <string name="placeholder">Placeholder</string>
+</resources>
+

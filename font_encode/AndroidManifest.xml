@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.cyanogenmod.fonts.encode">
+
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="Encode"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="Impallari Type" />
+
+</manifest>
