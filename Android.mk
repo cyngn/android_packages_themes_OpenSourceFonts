@@ -14,12 +14,24 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+TOP_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := FontJosefin
+LOCAL_PACKAGE_NAME := OpenSourceFonts
 #LOCAL_JAVA_LIBRARIES := framework-base
+LOCAL_SDK_VERSION := 19
 
-include $(BUILD_PACKAGE)
+# Sign the package when not using test-keys
+#ifneq ($(DEFAULT_SYSTEM_DEV_CERTIFICATE),build/target/product/security/testkey)
+#LOCAL_CERTIFICATE := cyngn-app
+#endif
+
+include $(TOP_PATH)/font_alegreya/Android.mk
+include $(TOP_PATH)/font_bellota/Android.mk
+include $(TOP_PATH)/font_bilbo/Android.mk
+include $(TOP_PATH)/font_encode/Android.mk
+include $(TOP_PATH)/font_josefin/Android.mk
+include $(TOP_PATH)/font_tinos/Android.mk
+
