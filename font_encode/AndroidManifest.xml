@@ -5,4 +5,7 @@
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="Encode"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="Impallari Type" />
 
+<application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Encode Font">
+    </application>
+
 </manifest>
