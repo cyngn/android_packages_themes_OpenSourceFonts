@@ -5,4 +5,7 @@
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="Bilbo"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="TypeSETit" />
 
+<application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Bilbo Font">
+    </application>
+
 </manifest>

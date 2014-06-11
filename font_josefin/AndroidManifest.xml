@@ -5,4 +5,7 @@
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="Josefin"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="Typemade" />
 
+<application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Josefin Font">
+    </application>
+
 </manifest>
