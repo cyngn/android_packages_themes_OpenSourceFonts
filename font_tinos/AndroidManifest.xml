@@ -5,6 +5,9 @@
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="Tinos"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="Ascender Fonts" />
 
+    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+
 <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Tinos Font">
     </application>
 
