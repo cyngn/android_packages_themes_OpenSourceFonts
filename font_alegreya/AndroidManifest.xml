@@ -5,4 +5,7 @@
     <meta-data android:name="org.cyanogenmod.theme.name" android:value="Alegreya"/>
     <meta-data android:name="org.cyanogenmod.theme.author" android:value="Juan Pablo del Peral" />
 
+<application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Alegreya Font">
+    </application>
+
 </manifest>
