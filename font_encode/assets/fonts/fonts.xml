@@ -9,10 +9,8 @@
             <name>verdana</name>
         </nameset>
         <fileset>
-            <file>Lato-Regular.ttf</file>
-            <file>Lato-Bold.ttf</file>
-            <file>Lato-Italic.ttf</file>
-            <file>Lato-BoldItalic.ttf</file>
+            <file>EncodeSansNormal-400-Regular.ttf</file>
+            <file>EncodeSansNormal-700-Bold.ttf</file>
         </fileset>
     </family>
     
@@ -21,8 +19,7 @@
             <name>sans-serif-light</name>
         </nameset>
         <fileset>
-            <file>Lato-Light.ttf</file>
-            <file>Lato-LightItalic.ttf</file>
+            <file>EncodeSansNormal-300-Light.ttf</file>
         </fileset>
     </family>
     
@@ -31,8 +28,7 @@
             <name>sans-serif-thin</name>
         </nameset>
         <fileset>
-            <file>Lato-Thin.ttf</file>
-            <file>Lato-ThinItalic.ttf</file>
+            <file>EncodeSansNormal-100-Thin.ttf</file>
         </fileset>
     </family>
     
@@ -41,10 +37,8 @@
             <name>sans-serif-condensed</name>
         </nameset>
         <fileset>
-            <file>LatoSRegCon.ttf</file>
-            <file>LatoSBolCon.ttf</file>
-            <file>LatoSRegConIta.ttf</file>
-            <file>LatoSBolConIta.ttf</file>
+            <file>EncodeSansCondensed-400-Regular.ttf</file>
+            <file>EncodeSansCondensed-700-Bold.ttf</file>
         </fileset>
     </family>
     
