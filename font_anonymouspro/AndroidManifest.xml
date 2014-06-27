@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="3" android:versionName="1.2" xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.cyanogenmod.fonts.anonymouspro">
+
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="Anonymous Pro"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="Mark Simonson" />
+
+    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+
+<application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Anonymous Pro Font">
+    </application>
+
+</manifest>
