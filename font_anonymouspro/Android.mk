@@ -14,18 +14,16 @@
 # limitations under the License.
 #
 
-TOP_PATH := $(call my-dir)
+LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := OpenSourceFonts
-LOCAL_SDK_VERSION := 19
+LOCAL_PACKAGE_NAME := FontAnonymousPro
 
-include $(TOP_PATH)/font_alegreya/Android.mk
-include $(TOP_PATH)/font_anonymouspro/Android.mk
-include $(TOP_PATH)/font_bellota/Android.mk
-include $(TOP_PATH)/font_bilbo/Android.mk
-include $(TOP_PATH)/font_encode/Android.mk
-include $(TOP_PATH)/font_josefin/Android.mk
-include $(TOP_PATH)/font_tinos/Android.mk
+# Sign the package when not using test-keys
+ifneq ($(DEFAULT_SYSTEM_DEV_CERTIFICATE),build/target/product/security/testkey)
+LOCAL_CERTIFICATE := cyngn-app
+endif
+
+include $(BUILD_PACKAGE)
